@@ -1,0 +1,17 @@
+{
+  "description": "Change all website images to dancing Joker image",
+  "icons": {
+    "128": "./icon.png"
+  },
+  "manifest_version": 3,
+  "name": "Joker every where",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Content.js"],
+      "css": []
+    }
+  ],
+  "version": "1.0.0",
+  "content_security_policy": {}
+}
