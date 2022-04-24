@@ -3,6 +3,7 @@
   "icons": {
     "128": "./icon.png"
   },
+  "host_permissions": ["*://*/"],
   "manifest_version": 3,
   "name": "Joker every where",
   "content_scripts": [
