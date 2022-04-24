@@ -6,4 +6,8 @@ setInterval(() => {
     const element = images[i];
     element.src = url
   }
-}, 3000);
+
+  var audio = new Audio('Joker_laughing.mp3');
+  audio.play();
+
+}, 4000);
